@@ -1,0 +1,15 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Set LF for shell scripts
+*.sh text eol=lf
+
+# Force CRLF for batch scripts (Windows)
+*.bat text eol=crlf
+
+# Ignore line-ending normalization for binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+*.exe binary
